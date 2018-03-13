@@ -1,0 +1,16 @@
+build
+node_modules
+
+public/locales
+
+# unwanted semantic UI stuff
+public/css/semantic.min.css
+semantic/dist
+semantic/gulpfile.js
+semantic/src/definitions/
+semantic/src/semantic.less
+semantic/src/theme.less
+semantic/src/themes/
+semantic/tasks/
+
+*.swp

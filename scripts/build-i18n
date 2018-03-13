@@ -1,0 +1,13 @@
+#!/bin/sh
+
+outdir=public/locales
+
+[ ! -d $outdir ] && mkdir $outdir
+if which jq > /dev/null; then
+	for lc in src/i18n/*; do
+		jq -c . <"$lc" >$outdir/`basename "$lc"`
+	done
+else
+	echo "Install jq to build locale files" >&2
+	exit 1
+fi
