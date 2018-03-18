@@ -1,0 +1,10 @@
+#!/bin/sh
+
+app_assets=public/assets
+semantic_root=semantic/dist
+semantic_assets=$semantic_root/themes/default/assets
+
+rm -rf $app_assets
+cp -r $semantic_assets $app_assets
+mkdir $app_assets/css
+cp $semantic_root/semantic.min.css $app_assets/css

@@ -10,7 +10,7 @@
     "start": "node scripts/start.js",
     "i18n:build": "scripts/build-i18n",
     "semantic:build": "gulp --gulpfile semantic/gulpfile.js build-css",
-    "semantic:copy": "mkdir -p public/css && cp semantic/dist/semantic.min.css public/css"
+    "semantic:copy": "scripts/copy-semantic"
   },
   "dependencies": {
     "@types/node": "^8.0.57",

@@ -1,10 +1,10 @@
 build
 node_modules
 
+public/assets
 public/locales
 
 # unwanted semantic UI stuff
-public/css/semantic.min.css
 semantic/dist
 semantic/gulpfile.js
 semantic/src/definitions/
