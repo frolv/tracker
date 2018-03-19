@@ -13,8 +13,8 @@ export default class App extends React.Component {
         <div className="tracker-container">
           <div className="tracker-page">
             <Switch>
-              <Route exact path="/" component={MainPage.component} />
-              <Route component={NotFoundPage.component} />
+              <Route exact path="/" component={MainPage} />
+              <Route component={NotFoundPage} />
             </Switch>
           </div>
         </div>
