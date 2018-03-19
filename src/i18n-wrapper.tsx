@@ -8,7 +8,7 @@ import LocaleInfo from 'models/locale-info';
 import App from './app';
 
 const Intl = (props: LocaleInfo) => (
-  <IntlProvider locale={props.locale} messages={props.messages}>
+  <IntlProvider locale={props.locale} key={props.locale} messages={props.messages}>
     <App />
   </IntlProvider>
 );
