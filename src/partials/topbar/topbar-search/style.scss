@@ -1,0 +1,9 @@
+.ui.search.tracker-topbar-search {
+  &>.results .result .title {
+    font-weight: 400;
+    .completion {
+      font-weight: 700;
+      color: rgb(32, 98, 204);
+    }
+  }
+}

@@ -1,4 +1,9 @@
 {
   "404-header": "Not Found",
-  "404-text": "The requested page does not exist"
+  "404-text": "The requested page does not exist",
+  "current": "Current top",
+  "home": "Home",
+  "not-found": "Not Found",
+  "records": "Records",
+  "tbs-placeholder": "Enter a username"
 }

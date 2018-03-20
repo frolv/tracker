@@ -1,0 +1,7 @@
+@import 'src/mixins';
+
+.tracker-topbar-main {
+  .item.icon > span {
+    @include -offscreen();
+  }
+}

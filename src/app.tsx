@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MainPage from 'pages/main-page';
 import NotFoundPage from 'pages/not-found';
 
+import Topbar from 'partials/topbar';
+
 import './app.scss';
 
 export default class App extends React.Component {
@@ -11,6 +13,7 @@ export default class App extends React.Component {
     return (
       <BrowserRouter>
         <div className="tracker-container">
+          <Topbar />
           <div className="tracker-page">
             <Switch>
               <Route exact path="/" component={MainPage} />
